@@ -29,8 +29,9 @@ int main(int argc, char** argv)
     args.output_coord = 1;
     args.render_size = 512;
     args.output_size = 256;
-    
+       printf("test2\n");
     FILE *file = fopen("config.txt", "r");
+       printf("test3\n");
     fscanf(file, "folder_path = %s\n", &folderPath);
     fscanf(file, "envmap_path = %s\n", &envPath);
     fscanf(file, "theta_inc = %d\n", &args.theta_inc);

@@ -43,7 +43,7 @@ int main(int argc, char** argv)
     fscanf(file, "reverse_normals = %d\n", &args.reverse_normals);
     fscanf(file, "brightness = %f\n", &args.brightness);
     fclose(file);
-    
+     printf("test4\n");
     genViews(envPath, folderPath, args);
     return 0;
 }

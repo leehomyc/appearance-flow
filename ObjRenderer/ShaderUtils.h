@@ -86,6 +86,7 @@ inline GLuint loadShaders(const std::vector<std::string>& vertList, const std::v
 
     for(unsigned i=0; i<vertList.size(); i++)
     {
+        printf("%d\n",i);
         GLuint v = glCreateShader(GL_VERTEX_SHADER);
         vs = textFileRead(vertList[i].c_str());
         const char * vv = vs;
@@ -99,6 +100,7 @@ inline GLuint loadShaders(const std::vector<std::string>& vertList, const std::v
 
     for(unsigned i=0; i<fragList.size(); i++)
     {
+        printf("%d\n",i);
         GLuint f = glCreateShader(GL_FRAGMENT_SHADER);	
         fs = textFileRead(fragList[i].c_str());
         const char * ff = fs;

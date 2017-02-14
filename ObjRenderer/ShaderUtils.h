@@ -82,6 +82,10 @@ inline GLuint loadShaders(const std::vector<std::string>& vertList, const std::v
 {
     char *vs,*fs;
 
+    NSOpenGLContext* context = [self openGLContext];
+
+   [context makeCurrentContext];
+
      printf("test test\n");
     GLuint p = glCreateProgram();
      printf("test test test\n");

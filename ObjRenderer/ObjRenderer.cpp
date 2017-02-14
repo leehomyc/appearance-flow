@@ -87,7 +87,7 @@ void ObjRenderer::init(unsigned size)
     fragList.push_back("Shader/coord.frag");
     fragList.push_back("Shader/phong.frag");
     fragList.push_back("Shader/brdf.frag");
-
+    printf("test5\n");
     shaderProgID = loadShaders("Shader/geo.vert", fragList);
 
     glGenTextures(1, &colorTexID);

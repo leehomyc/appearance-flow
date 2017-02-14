@@ -117,7 +117,7 @@ void ObjRenderer::init(unsigned size)
     glFramebufferRenderbuffer(GL_FRAMEBUFFER, GL_DEPTH_ATTACHMENT, GL_RENDERBUFFER, depthBufferID);
 
     glGenBuffers(1, &vertexBufferID);
-
+     printf("test6\n");
     cv::Mat blank_image(8, 8, CV_8UC1, cv::Scalar(255));
 
     blankTexID = makeTex(blank_image);

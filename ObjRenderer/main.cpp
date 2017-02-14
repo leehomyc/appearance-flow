@@ -18,7 +18,7 @@ int main(int argc, char** argv)
     Viewer::init();
     Viewer::run();
     return 0;*/
-    
+    printf("test\n");
     Args args;
     char folderPath[1024];
     char envPath[1024];

@@ -84,7 +84,7 @@ inline GLuint loadShaders(const std::vector<std::string>& vertList, const std::v
 
      printf("test test\n");
     GLuint p = glCreateProgram();
-
+     printf("test test test\n");
     for(unsigned i=0; i<vertList.size(); i++)
     {
         printf("%d\n",i);

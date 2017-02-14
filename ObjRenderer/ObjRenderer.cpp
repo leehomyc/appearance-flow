@@ -88,6 +88,8 @@ void ObjRenderer::init(unsigned size)
     fragList.push_back("Shader/phong.frag");
     fragList.push_back("Shader/brdf.frag");
     printf("test5\n");
+    std::vector<std::string> vertList;
+    vertList.push_back("Shader/geo.vert");
     shaderProgID = loadShaders("Shader/geo.vert", fragList);
       printf("test7\n");
     glGenTextures(1, &colorTexID);

@@ -1,5 +1,5 @@
-folder_path = test/
-envmap_path = envmaps/envmap.hdr
+folder_path = /media/harryyang/New\ Volume/vision-harry/ShapeNetCore.v1/02691156
+envmap_path = /home/harryyang/Documents/appearance-flow/ObjRenderer/envmaps/envmap.hdr
 theta_inc = 30
 phi_inc = 10
 phi_max = 30

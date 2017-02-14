@@ -90,7 +90,7 @@ void ObjRenderer::init(unsigned size)
     printf("test5\n");
     std::vector<std::string> vertList;
     vertList.push_back("Shader/geo.vert");
-    shaderProgID = loadShaders("Shader/geo.vert", fragList);
+    shaderProgID = loadShaders(vertList, fragList);
       printf("test7\n");
     glGenTextures(1, &colorTexID);
     glBindTexture(GL_TEXTURE_2D, colorTexID);
